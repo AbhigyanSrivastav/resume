@@ -140,18 +140,21 @@ a {
 
 @media screen and (max-width: 430px) {
   .sidebar {
-    width: 200vw;
+    width: 100vw;
     height: 50vh;
   }
 
   .main {
-    width: 200vw;
-    height: 150vh;
+    width: 100vw;
+    height: 100vh;
   }
 
+  .mainhide{
+    height: 200vh;
+  }
   .resume {
-    width: 87vh;
-    height: 115vh;
-    background-size: cover;
+    width: 92vw;
+    height: 56vh;
+    margin-top: 10vh;
   }
 }
